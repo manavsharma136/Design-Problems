@@ -1,5 +1,3 @@
-
-
 export class user{
 
     private name: string;
