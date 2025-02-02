@@ -1,48 +1,60 @@
 
-🚀 Design Problems Repository
+# 🚀Design Problems Repository
+
 This repository contains design problems from LeetCode and other sources, implemented in multiple programming languages:
 
 ✅ JavaScript
+
 ✅ TypeScript
+
 ✅ C++
+
 ✅ Java
-📌 About
+
+
+# 📌 About
 The goal of this repository is to provide well-structured solutions to common design problems, helping developers:
 
 🚀 Improve system design and problem-solving skills
 🌐 Learn multi-language implementations of the same problem
 ✨ Follow best practices for clean, scalable code
-📂 Folder Structure
+
+
+# 📂 Folder Structure
 Each problem is organized by category and language:
 
-plaintext
-Copy
-Edit
 /design-problems
-   ├── javascript/
+
+   ├── javascript/ 
+
    ├── typescript/
+
    ├── cpp/
+
    ├── java/
+
    └── README.md
-🛠 How to Use
-Clone the repository:
+   
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/design-problems.git
-cd design-problems
-Navigate to your preferred language folder:
-Explore solutions implemented in JavaScript, TypeScript, C++, or Java.
+![TypeScript](https://img.shields.io/badge/TypeScript-v4.9-blue)
 
-📢 Contributing
+![C++](https://img.shields.io/badge/C++-14-red)
+
+![Java](https://img.shields.io/badge/Java-18-orange)
+
+
+# 🛠 How to Use
+1. Clone the repository
+2. Navigate to your preferred language folder
+
+# 📢 Contributing
 Contributions are welcome! If you'd like to add a new problem or improve an existing solution:
 
 Fork this repository
 Add your solution
 Open a Pull Request
-⭐ Support
-If you find this repository helpful, please consider starring ⭐ it and sharing it with others!
 
-Happy coding! 🚀
+
+
 
