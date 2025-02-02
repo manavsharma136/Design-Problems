@@ -1,4 +1,3 @@
-:
 
 🚀 Design Problems Repository
 This repository contains design problems from LeetCode and other sources, implemented in multiple programming languages:
