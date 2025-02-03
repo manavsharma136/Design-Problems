@@ -8,6 +8,7 @@ export class Customer extends user{
     constructor(name:string, email:string,phone:number,location:ILocation){
         super(name, email, phone);
         this.location =  location;
+        this.orders = [];
 
     }
 

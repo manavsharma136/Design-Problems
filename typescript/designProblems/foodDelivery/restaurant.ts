@@ -11,6 +11,7 @@ export class Restaurant {
         this.location = location;
         this.id = this.generateRandomId();
         this.isOPen=true;
+        this.menu = [];
     }
 
     generateRandomId(){
@@ -32,6 +33,9 @@ export class Restaurant {
 
     setOpen(isOpen:boolean){
         this.isOPen = isOpen;
+    }
+    getId(){
+        return this.id;
     }
 
 

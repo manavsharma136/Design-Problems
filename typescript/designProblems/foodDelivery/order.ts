@@ -18,6 +18,7 @@ export class Order{
         this.status = OrderStatus.PENDING;
         this.customer = customer;
         this.restaurant = restaurant;
+        this.updatedAt=new Date();
     }
 
 
@@ -25,6 +26,9 @@ export class Order{
         return (new Date()).toString();
     }
 
+    getOrderId():string{
+        return this.orderId;
+    }
     addItem (item:OrderItem):void {
         this.items.push(item);
         this.updateAt()
