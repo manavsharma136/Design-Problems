@@ -2,6 +2,7 @@ import { Customer } from "./customer";
 import { DeliveryAgent } from "./deliveryAgent";
 import { Order } from "./order";
 import { OrderItem } from "./orderItem";
+import { OrderStatus } from "./orderStatus";
 import { Restaurant } from "./restaurant";
 
 class FoodDeliveryService {
@@ -66,8 +67,15 @@ class FoodDeliveryService {
         if(!order){
             throw new Error("Orders not found");
         }
-        
+        const availableAgent = Array.from(this.deliveryAgents.values()).find(agent => agent.isAvailable());
+        if(!availableAgent){
+            throw new Error("No delivery agent found");
+        }
+        availableAgent.assignOrder(order);
+        order.assignDeliveryAgent(availableAgent);
+        order.updateOrderStatus(OrderStatus.CONFIRMED);
     }
+
 
     
      

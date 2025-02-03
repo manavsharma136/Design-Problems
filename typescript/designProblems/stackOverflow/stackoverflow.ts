@@ -1,6 +1,7 @@
 import { user } from "./user";
 import { question } from "./question";
 import { Answer } from "./answer";
+import { tag } from "./tag";
 class stackOverFlow{
 
 

@@ -1,4 +1,4 @@
-class tag{
+export class tag{
     private static idCounter = 1;
     public readonly id: number;
     public name: string;

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["es2016","dom","es2020"],  // ✅ Add this line
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+
+
+}
+
